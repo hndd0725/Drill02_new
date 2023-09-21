@@ -30,13 +30,16 @@ def run_circle():
 def run_rectangle():
     print('RECTANGLE')
     #bottom line
-    for x in range(50,750+1,5):
-        render_frame(x,90)#xy위치에 캐릭터그려줄 수 있는
+    #for x in range(50,750+1,5):
+        #render_frame(x,90)#xy위치에 캐릭터그려줄 수 있는
+    #top line
+    for x in range(750,50-1,-5):
+        render_frame(x,550)
         
     
     
 while True:
-    run_circle()
+    #run_circle()
     run_rectangle()
 
 close_canvas()
