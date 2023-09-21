@@ -32,14 +32,15 @@ def run_rectangle():
     #bottom line
     for x in range(50,750+1,5):
         render_frame(x,90)#xy위치에 캐릭터그려줄 수 있는
+    for x in range(90,600+1,5):
+        render_frame(750,x)
     #top line
     for x in range(750,50-1,-5):
         render_frame(x,550)
     
     for x in range(600,90-1,-5):
         render_frame(50,x)
-    for x in range(90,600+1,5):
-        render_frame(750,x)
+    
         
     
     
